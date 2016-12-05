@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Site</title>
+	<link rel="stylesheet" type="text/css" href="apps/lib/materialize/dist/css/materialize.css">
+</head>
+<body ng-app="myApp">
+
+<header ng-include="'apps/views/header.html'"></header>
+<main ng-view></main>
+<footer ng-include="'apps/views/footer.html'"></footer>
+
+
+<!-- angular js -->
+<script type="text/javascript" src="apps/lib/angular/angular.js"></script>
+<!-- angular route -->
+<script type="text/javascript" src="apps/lib/angular-route/angular-route.min.js"></script>
+<!-- app js -->
+<script type="text/javascript" src="apps/app.js"></script>
+<!-- route js -->
+<script type="text/javascript" src="apps/route.js"></script>
+<!-- controllers -->
+<script type="text/javascript" src="apps/controller/moviecontroller.js"></script>
+<script type="text/javascript" src="apps/controller/gamecontroller.js"></script>
+<script type="text/javascript" src="apps/controller/softwarecontroller.js"></script>
+<!-- jquery.js -->
+<script type="text/javascript" src="apps/lib/jquery/dist/jquery.js"></script>
+<!-- materialize.js -->
+<script type="text/javascript" src="apps/lib/materialize/dist/js/materialize.js"></script>
+</body>
+</html>
